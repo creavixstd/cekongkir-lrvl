@@ -1,0 +1,23 @@
+{
+    "name": "creavixstd/cekongkir-lrvl",
+    "description": "Cek Ongkir API Laravel 5",
+    "keywords": [
+        "cek ongkir","rajaongkir", "application programming interface", "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Creafix Studio",
+            "email": "ceriavix@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"creavixstd\\cekongkir\\": "src/"
+    	}
+    },
+    "require": {
+    	"illuminate/support": "~5"
+    }
+}
